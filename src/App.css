@@ -1,0 +1,72 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+
+
+.card{
+  border: 10px solid rgb(9, 72, 160);
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 0px;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+.label{
+  padding: 0px 10px;
+  margin: 4px;
+}
+
+
+#Val{
+  font-size: 25px;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+
+}
+
+.center{
+  display: flex;
+  gap: 20px;
+}
+
+.Tool{
+  background:rgba(3, 43, 137, 0.409) ;
+  width: 100px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  transition: 2s ease-in;
+}
+
+.top{
+  visibility: hidden;
+  
+}
+.bottom{
+  visibility: hidden;
+}
+.right{
+  visibility: hidden;
+}
+.left{
+  visibility: hidden;
+
+}
