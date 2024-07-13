@@ -1,8 +1,12 @@
-# React + Vite
+#ToolTip
+A small project from CN
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#problem statement
 
-Currently, two official plugins are available:
+Create a simple tooltip component according to the gif below (on the next page)
+On hovering of the button I should show a tooltip.
+The component will receive the ‘position‘ of tooltip as prop. In the GIF (see below). We can pass options : “top”, “bottom”, “right”, “left”.
+According to the position the tooltip should render at that position.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Solution link : https://beastooltip.netlify.app/
